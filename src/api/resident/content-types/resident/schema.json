@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "residents",
+  "info": {
+    "singularName": "resident",
+    "pluralName": "residents",
+    "displayName": "Resident"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ResidentId": {
+      "type": "string"
+    },
+    "RoomNo": {
+      "type": "string"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "resident"
+    }
+  }
+}
