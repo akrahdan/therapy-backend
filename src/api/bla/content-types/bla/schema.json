@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blas",
+  "info": {
+    "singularName": "bla",
+    "pluralName": "blas",
+    "displayName": "Bla"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
